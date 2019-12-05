@@ -1,0 +1,18 @@
+{
+  "name": "now-bolt",
+  "scope": "selfcontained",
+  "alias": ["now-bolt"],
+  "env": {
+    "NODE_ENV": "production",
+    "SLACK_CLIENT_ID": "@we-client-id",
+    "SLACK_CLIENT_SECRET": "@we-client-secret",
+    "SLACK_SIGNING_SECRET": "@we-signing-secret",
+    "SLACK_VERIFICATION_TOKEN": "@we-verification-token",
+    "SLACK_BOT_TOKEN": "@we-bot-token"
+  },
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
